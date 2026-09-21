@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="智达优">
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#0d1117" stroke="#1f6feb" stroke-width="2"/>
+  <rect x="20" y="19" width="24" height="7"  rx="3.5" fill="#8b949e"/>
+  <rect x="10" y="28.5" width="44" height="9" rx="4.5" fill="#58a6ff"/>
+  <rect x="20" y="40" width="24" height="7"  rx="3.5" fill="#8b949e"/>
+</svg>
