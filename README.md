@@ -13,20 +13,29 @@
 
 ## 下载
 
-首个公开版本 **v1.0.0** 正在准备中，发布后在本仓库的
-[Releases](https://github.com/xipute/zhidayou/releases) 页面提供三平台安装包与校验值。
+首个公开版本 **v1.0.0** 已发布，在
+[Releases](https://github.com/xipute/zhidayou/releases) 页面下载对应平台的安装器
+（图形界面与命令行两种形态，功能相同）：
 
-| 平台 | 状态 |
-|------|------|
-| Windows | 准备中 |
-| macOS | 准备中 |
-| Linux | 准备中 |
+| 平台 | 图形界面 | 命令行 |
+|------|----------|--------|
+| Windows (x86_64) | [zdy-installer.exe](https://github.com/xipute/zhidayou/releases/download/v1.0.0/zdy-installer.exe) | [zdy-installer-headless.exe](https://github.com/xipute/zhidayou/releases/download/v1.0.0/zdy-installer-headless.exe) |
+| macOS | 解压后双击 `ZdyInstaller.app` | 解压后双击 `ZdyInstaller-Headless.command` |
+| Linux (x86_64) | [zdy-installer](https://github.com/xipute/zhidayou/releases/download/v1.0.0/zdy-installer) | [zdy-installer-headless](https://github.com/xipute/zhidayou/releases/download/v1.0.0/zdy-installer-headless) |
+
+macOS 附件：[ZdyInstaller-macos-v1.0.0.zip](https://github.com/xipute/zhidayou/releases/download/v1.0.0/ZdyInstaller-macos-v1.0.0.zip)
+（含 `.app` 与命令行入口，解压后置于同一目录使用）。
+各附件 SHA256 校验值见 Release 页面与 `使用说明.txt`。
 
 系统要求：
 
-- **Windows**：Windows 10 及以上（64 位）
-- **macOS**：macOS 11 及以上（Apple Silicon / Intel）
-- **Linux**：主流发行版，x86_64
+- **Windows**：Windows 10 及以上（64 位）；首次运行如遇 SmartScreen，点「更多信息 → 仍要运行」
+- **macOS**：macOS 11 及以上（Intel 原生；Apple Silicon 经 Rosetta 2）；首次运行如被
+  Gatekeeper 拦截，右键 →「打开」
+- **Linux**：主流发行版，x86_64（图形形态需桌面环境，`chmod +x` 后运行）
+
+安装与授权：运行安装器 → 输入授权码 → 选安装目录（默认新建 `ai-system-butler/`，可改）。
+授权码一人一码，激活需联网；同一机器重装复用本机许可证缓存。详见 `使用说明.txt`。
 
 ## 它能做什么
 
